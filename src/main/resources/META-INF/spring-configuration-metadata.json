@@ -1,0 +1,11 @@
+{
+  "properties":[
+    {
+      "name":"spring.rabbitmq.queue",
+      "type":"string"
+    },{
+      "name":"mail.from.name",
+      "type":"string"
+    }
+  ]
+}
