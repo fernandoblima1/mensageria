@@ -9,9 +9,11 @@ import com.fernando.mensageria.entities.EmailModel;
 import com.fernando.mensageria.enums.StatusEmail;
 import com.fernando.mensageria.services.EmailService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
+@Tag(name = "Email")
 @RestController
 @RequiredArgsConstructor
 public class EmailController {
